@@ -1,7 +1,7 @@
 # Задача 30:  Заполните массив элементами арифметической прогрессии.
 # Её первый элемент, разность и количество элементов нужно ввести с клавиатуры. 
 # Формула для получения n-го члена прогрессии: an = a1 + (n-1) * d.
-# Каждое число вводится с новой строки.
+
 
 def arithmetic_progression(start, step, quantity):
     array = [start]
@@ -9,4 +9,4 @@ def arithmetic_progression(start, step, quantity):
         array.append(array[i-1] + step)
     return array
 
-print(arithmetic_progression(5,3,1))    
+print(arithmetic_progression(5,6,9))    
