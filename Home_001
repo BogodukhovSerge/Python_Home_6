@@ -4,9 +4,9 @@
 # Каждое число вводится с новой строки.
 
 def arithmetic_progression(start, step, quantity):
-    arr = [start]
+    array = [start]
     for i in range(1,quantity):
-        arr.append(arr[i-1] + step)
-    return arr
+        array.append(array[i-1] + step)
+    return array
 
-print(arithmetic_progression(7,2,5))    
+print(arithmetic_progression(5,3,1))    
